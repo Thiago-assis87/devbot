@@ -38,6 +38,14 @@
             <th>Quarta</th>
             <th>Consulta médica</th>
         </tr>
+        <tr>
+            <th>Quinta-Feira</th>
+            <th>Terapia</th>
+        </tr>
+        <tr>
+            <th>Sexta-Feira</th>
+            <th>Happy Hour</th>
+        </tr>
     </table>
 
     <h2>Nova tarefas</h2>
@@ -49,6 +57,19 @@
         <label for="horario">Horário</label>
         <input type="time" name="horario" id="horario">
         <br>
+        <label for="categoria">Categoria</label>
+        <select name="categoria" id="categoria">
+            <option value="trabalho">Trabalho</option>
+            <option value="saude">Saúde</option>
+            <option value="pessoal">Pessoal</option>
+        </select>
+        <br>
+        <input type="checkbox"name="recorrente" id="recorrente">
+        <label for="recorrente">Tarefa recorrente</label>
+        <br>
+        <label for="descricao">Descrição</label>
+        <br>
+        <textarea id="descricao" name="descricao" rows="3" cols="30"></textarea>
         <button type="submit">Salvar Tarefa</button>
     </form>
 </body>
