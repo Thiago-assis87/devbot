@@ -1,3 +1,11 @@
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color:#333333;
+}
+
+
 h1 {
     color: darkblue;
 }
@@ -21,4 +29,7 @@ img {
 .form-tarefa {
     border: 1px solid blue;
     padding: 16px;
+    margin-top: 24px;
+    
 }
+
